@@ -1,0 +1,308 @@
+---
+import "../styles/global.css";
+
+const serviceItems = [
+  {
+    name: "Residential Interior",
+    desc: "Walls, ceilings, cabinets & fine trim details.",
+    slug: "residential-interior",
+  },
+  {
+    name: "Residential Exterior",
+    desc: "Stucco, siding, protection & curb appeal.",
+    slug: "residential-exterior",
+  },
+  {
+    name: "Commercial Services",
+    desc: "Offices, retail spaces, HOAs & industrial.",
+    slug: "commercial-services",
+  },
+  {
+    name: "Cabinet Refinishing",
+    desc: "Factory-grade finish transformation.",
+    slug: "cabinet-refinishing",
+  },
+];
+---
+
+<header
+  id="navbar"
+  class="fixed w-full top-0 z-50 transition-all duration-500 bg-[#22333B]/95 backdrop-blur-md border-b border-white/5 shadow-2xl shadow-black/20"
+>
+  <div class="max-w-7xl mx-auto px-6 h-24 flex items-center justify-between">
+    <a href="/" class="flex items-center gap-3 group">
+      <img
+        src="https://res.cloudinary.com/dlh3rtxxm/image/upload/v1763851619/logo-rvp_dwkycu.png"
+        alt="Rangel Valley Logo"
+        class="h-10 w-auto object-contain opacity-90 group-hover:opacity-100 transition-opacity"
+      />
+      <div class="flex flex-col leading-none">
+        <span
+          class="font-serif text-xl tracking-widest text-[#EAE0D5] group-hover:text-white transition-colors"
+        >
+          RANGEL VALLEY
+        </span>
+        <span
+          class="text-[9px] uppercase tracking-[0.3em] text-[var(--brand-accent)] font-medium mt-1 opacity-80"
+        >
+          Painting Services
+        </span>
+      </div>
+    </a>
+
+    <nav class="hidden lg:flex items-center gap-10">
+      <!-- Home Link -->
+      <a
+        href="/"
+        class="relative text-[11px] uppercase tracking-[0.15em] font-medium text-[#EAE0D5] hover:text-white transition-colors group"
+      >
+        Home
+        <span
+          class="absolute -bottom-1 left-0 w-0 h-px bg-[var(--brand-accent)] transition-all duration-300 group-hover:w-full"
+        ></span>
+      </a>
+
+      <!-- Services Dropdown -->
+      <div class="relative group h-24 flex items-center">
+        <button
+          class="flex items-center gap-1 text-[11px] uppercase tracking-[0.15em] font-medium text-[#EAE0D5] group-hover:text-white transition-colors focus:outline-none py-2"
+        >
+          Services
+          <svg
+            class="w-3 h-3 text-[var(--brand-accent)] group-hover:rotate-180 transition-transform duration-300"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+            ><path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M19 9l-7 7-7-7"></path></svg
+          >
+        </button>
+
+        <div
+          class="absolute top-[80%] -left-8 w-[360px] bg-[#EAE0D5] rounded-2xl shadow-2xl border border-white/20 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 transform translate-y-4 group-hover:translate-y-0 overflow-hidden"
+        >
+          <div class="p-4 grid gap-2">
+            {
+              serviceItems.map((service) => (
+                <a
+                  href={`/${service.slug}`}
+                  class="block p-4 rounded-xl hover:bg-white/60 transition-all duration-300 group/item"
+                >
+                  <div class="flex justify-between items-center mb-1">
+                    <div class="text-[#22333B] font-serif font-bold text-base group-hover/item:text-[var(--brand-primary)] transition-colors">
+                      {service.name}
+                    </div>
+                    <svg
+                      class="w-4 h-4 text-[var(--brand-primary)] opacity-0 -translate-x-2 group-hover/item:opacity-100 group-hover/item:translate-x-0 transition-all"
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M17 8l4 4m0 0l-4 4m4-4H3"
+                      />
+                    </svg>
+                  </div>
+                  <p class="text-[#5E503F] text-xs leading-relaxed font-light">
+                    {service.desc}
+                  </p>
+                </a>
+              ))
+            }
+          </div>
+          <div class="bg-[#dcd2c5] p-3 text-center">
+            <a
+              href="/#services"
+              class="text-[10px] uppercase tracking-[0.2em] font-bold text-[#22333B] hover:text-[var(--brand-accent-hover)] transition-colors"
+            >
+              View All Services
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Our Work (anchor en Home) -->
+      <a
+        href="/#projects"
+        class="relative text-[11px] uppercase tracking-[0.15em] font-medium text-[#EAE0D5] hover:text-white transition-colors group"
+      >
+        Our Work
+        <span
+          class="absolute -bottom-1 left-0 w-0 h-px bg-[var(--brand-accent)] transition-all duration-300 group-hover:w-full"
+        ></span>
+      </a>
+
+      <!-- Gallery Link -->
+      <a
+        href="/gallery"
+        class="relative text-[11px] uppercase tracking-[0.15em] font-medium text-[#EAE0D5] hover:text-white transition-colors group"
+      >
+        Gallery
+        <span
+          class="absolute -bottom-1 left-0 w-0 h-px bg-[var(--brand-accent)] transition-all duration-300 group-hover:w-full"
+        ></span>
+      </a>
+
+      <!-- About (anchor en Home) -->
+      <a
+        href="/#about"
+        class="relative text-[11px] uppercase tracking-[0.15em] font-medium text-[#EAE0D5] hover:text-white transition-colors group"
+      >
+        About
+        <span
+          class="absolute -bottom-1 left-0 w-0 h-px bg-[var(--brand-accent)] transition-all duration-300 group-hover:w-full"
+        ></span>
+      </a>
+    </nav>
+
+    <div class="flex items-center gap-6">
+      <!-- LINK ACTUALIZADO: Apunta a /contact -->
+      <a
+        href="/contact"
+        class="hidden sm:flex bg-[var(--brand-accent)] hover:bg-[#b0967a] text-[#22333B] px-7 py-3 rounded-full font-bold text-xs uppercase tracking-widest shadow-[0_0_20px_rgba(198,172,143,0.3)] hover:shadow-[0_0_30px_rgba(198,172,143,0.5)] transition-all transform hover:-translate-y-0.5"
+      >
+        Get Quote
+      </a>
+
+      <button
+        id="mobile-toggle"
+        class="lg:hidden text-[#EAE0D5] hover:text-white transition-colors p-1"
+      >
+        <svg
+          class="w-8 h-8"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.5"
+          viewBox="0 0 24 24"
+          ><path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M3.75 9h16.5m-16.5 6.75h16.5"></path></svg
+        >
+      </button>
+    </div>
+  </div>
+</header>
+
+<div id="mobile-menu" class="fixed inset-0 z-50 pointer-events-none">
+  <div
+    id="mobile-backdrop"
+    class="absolute inset-0 bg-[#0A0908]/80 backdrop-blur-sm opacity-0 transition-opacity duration-500"
+  >
+  </div>
+
+  <div
+    id="mobile-drawer"
+    class="absolute top-0 right-0 w-[85%] max-w-[320px] h-full bg-[#22333B] shadow-2xl transform translate-x-full transition-transform duration-500 ease-[cubic-bezier(0.22,1,0.36,1)] flex flex-col border-l border-white/10"
+  >
+    <div class="p-8 flex justify-between items-center border-b border-white/5">
+      <span class="font-serif text-xl text-[#EAE0D5] tracking-wide">Menu</span>
+      <button
+        id="mobile-close"
+        class="text-white/50 hover:text-white transition-colors"
+      >
+        <svg
+          class="w-6 h-6"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.5"
+          viewBox="0 0 24 24"
+          ><path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M6 18L18 6M6 6l12 12"></path></svg
+        >
+      </button>
+    </div>
+
+    <div class="p-8 flex flex-col gap-8 overflow-y-auto h-full">
+      <a
+        href="/"
+        class="text-2xl font-serif text-[#EAE0D5] hover:text-[var(--brand-accent)] transition-colors"
+        >Home</a
+      >
+
+      <div class="flex flex-col gap-4">
+        <span
+          class="text-xs uppercase tracking-[0.2em] text-[var(--brand-accent)] opacity-70"
+          >Services</span
+        >
+        <div class="pl-4 flex flex-col gap-5 border-l border-white/10">
+          {
+            serviceItems.map((item) => (
+              <a
+                href={`/${item.slug}`}
+                class="text-base text-white/80 hover:text-white font-light transition-colors"
+              >
+                {item.name}
+              </a>
+            ))
+          }
+        </div>
+      </div>
+
+      <a
+        href="/#projects"
+        class="text-2xl font-serif text-[#EAE0D5] hover:text-[var(--brand-accent)] transition-colors"
+        >Our Work</a
+      >
+      <a
+        href="/gallery"
+        class="text-2xl font-serif text-[#EAE0D5] hover:text-[var(--brand-accent)] transition-colors"
+        >Gallery</a
+      >
+      <a
+        href="/#about"
+        class="text-2xl font-serif text-[#EAE0D5] hover:text-[var(--brand-accent)] transition-colors"
+        >About Us</a
+      >
+
+      <div class="mt-auto pt-8">
+        <!-- LINK ACTUALIZADO: Apunta a /contact -->
+        <a
+          href="/contact"
+          class="block w-full bg-[var(--brand-accent)] text-[#22333B] py-4 rounded-full text-center font-bold uppercase tracking-widest text-sm hover:bg-[#b0967a] transition-colors"
+        >
+          Get Free Estimate
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  const toggleBtn = document.getElementById("mobile-toggle");
+  const closeBtn = document.getElementById("mobile-close");
+  const menu = document.getElementById("mobile-menu");
+  const backdrop = document.getElementById("mobile-backdrop");
+  const drawer = document.getElementById("mobile-drawer");
+
+  if (toggleBtn && closeBtn && menu && backdrop && drawer) {
+    const openMenu = () => {
+      menu.classList.remove("pointer-events-none");
+      backdrop.classList.remove("opacity-0");
+      drawer.classList.remove("translate-x-full");
+      document.body.style.overflow = "hidden";
+    };
+    const closeMenu = () => {
+      backdrop.classList.add("opacity-0");
+      drawer.classList.add("translate-x-full");
+      setTimeout(() => {
+        menu.classList.add("pointer-events-none");
+        document.body.style.overflow = "";
+      }, 500);
+    };
+    toggleBtn.addEventListener("click", openMenu);
+    closeBtn.addEventListener("click", closeMenu);
+    backdrop.addEventListener("click", closeMenu);
+    drawer
+      .querySelectorAll("a")
+      .forEach((link) => link.addEventListener("click", closeMenu));
+  }
+</script>

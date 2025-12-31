@@ -1,0 +1,47 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Navbar from "../components/Navbar.astro";
+import Home from "../components/Home.astro";
+import Services from "../components/Services.astro";
+import About from "../components/About.astro";
+import Projects from "../components/Projects.astro";
+import Process from "../components/Process.astro";
+import Reviews from "../components/Reviews.astro";
+import Contact from "../components/Contact.astro";
+import Footer from "../components/Footer.astro";
+---
+
+<!-- 
+  ESTRUCTURA MAESTRA 
+  Aquí ensamblamos la experiencia completa.
+  El Layout maneja el SEO y las animaciones de scroll.
+-->
+<Layout title="Rangel Valley Painting | Premium Works in Bakersfield, CA">
+  <!-- Navegación Fija -->
+  <Navbar />
+
+  <main>
+    <!-- 1. EL GANCHO (Hero Section) -->
+    <Home />
+
+    <!-- 2. LA OFERTA (Servicios Glass) -->
+    <Services />
+
+    <About />
+
+    <!-- 3. LA PRUEBA (Galería Dark Mode) -->
+    <Projects />
+
+    <!-- 4. LA CONFIANZA (Proceso + Marquee "Family Owned") -->
+    <Process />
+
+    <!-- 5. LA VALIDACIÓN SOCIAL (Reviews Infinitas) -->
+    <Reviews />
+
+    <!-- 6. EL CIERRE (Formulario Épico) -->
+    <Contact />
+  </main>
+
+  <!-- Pie de página Monumental -->
+  <Footer />
+</Layout>

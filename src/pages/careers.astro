@@ -1,0 +1,354 @@
+---
+import "../styles/global.css";
+import Navbar from "../components/Navbar.astro";
+---
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Painting Jobs in Bakersfield | Careers at Rangel Valley Painting
+    </title>
+    <meta
+      name="description"
+      content="Looking for painting jobs in Bakersfield? Join Kern County's premier painting team. We are hiring skilled commercial and residential painters. Apple Today."
+    />
+  </head>
+  <body
+    class="bg-[#050505] text-[#EAE0D5] font-sans selection:bg-[var(--brand-accent)] selection:text-[var(--brand-primary)]"
+  >
+    <Navbar />
+
+    <section
+      class="relative min-h-screen flex items-center pt-32 pb-24 bg-[#050505] overflow-hidden"
+    >
+      <!-- Ambient Background -->
+      <div
+        class="absolute top-[-10%] left-[-10%] w-[500px] h-[500px] bg-white/5 rounded-full blur-[120px] pointer-events-none"
+      >
+      </div>
+
+      <div class="max-w-7xl mx-auto px-6 relative z-10 w-full">
+        <div
+          class="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-24 items-start"
+        >
+          <!-- Left Column: Info -->
+          <div>
+            <span
+              class="text-[var(--brand-accent)] font-bold tracking-[0.2em] uppercase text-xs block mb-6 animate-fade-in-up"
+            >
+              Employment Opportunities
+            </span>
+            <h1
+              class="text-5xl md:text-7xl font-serif font-medium leading-[1.1] mb-8 text-white animate-fade-in-up delay-100"
+            >
+              Painting Jobs in<br />
+              <span class="italic text-gray-400 opacity-90">Bakersfield.</span>
+            </h1>
+            <p
+              class="text-gray-400 text-lg font-light leading-relaxed mb-12 max-w-md animate-fade-in-up delay-200"
+            >
+              We are hiring skilled painters and craftsmen who take pride in
+              their work. Join a top-rated team offering stable employment and
+              growth in Kern County. (Se busca pintor con experiencia).
+            </p>
+
+            <div
+              class="space-y-8 animate-fade-in-up delay-300 border-t border-white/10 pt-8"
+            >
+              <h3 class="text-white text-xl font-light">Why work with us?</h3>
+              <ul class="space-y-4 text-gray-400 font-light">
+                <li class="flex items-center gap-3">
+                  <span
+                    class="w-1.5 h-1.5 rounded-full bg-[var(--brand-accent)]"
+                  ></span>
+                  Competitive Pay
+                </li>
+                <li class="flex items-center gap-3">
+                  <span
+                    class="w-1.5 h-1.5 rounded-full bg-[var(--brand-accent)]"
+                  ></span>
+                  High-End Residential Projects
+                </li>
+                <li class="flex items-center gap-3">
+                  <span
+                    class="w-1.5 h-1.5 rounded-full bg-[var(--brand-accent)]"
+                  ></span>
+                  Professional Growth
+                </li>
+                <li class="flex items-center gap-3">
+                  <span
+                    class="w-1.5 h-1.5 rounded-full bg-[var(--brand-accent)]"
+                  ></span>
+                  Respectful Work Environment
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Right Column: Application Form -->
+          <div
+            class="relative bg-[#111] p-8 md:p-12 rounded-[2rem] border border-white/5 shadow-2xl animate-fade-in-up delay-300"
+          >
+            <form
+              id="career-form"
+              class="space-y-8 transition-all duration-500 opacity-100"
+            >
+              <!-- Hidden Subject Field for Formspree -->
+              <input
+                type="hidden"
+                name="subject"
+                value="New Job Application - Careers Page"
+              />
+
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="group relative">
+                  <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    required
+                    class="peer w-full bg-transparent border-b border-white/20 py-3 text-white placeholder-transparent focus:outline-none focus:border-[var(--brand-accent)] transition-colors font-light tracking-wide"
+                    placeholder="Name"
+                  />
+                  <label
+                    for="name"
+                    class="absolute left-0 -top-3.5 text-xs text-gray-500 transition-all peer-placeholder-shown:text-base peer-placeholder-shown:text-white/40 peer-placeholder-shown:top-3 peer-focus:-top-3.5 peer-focus:text-[var(--brand-accent)] peer-focus:text-xs uppercase tracking-widest"
+                  >
+                    Full Name
+                  </label>
+                </div>
+
+                <div class="group relative">
+                  <input
+                    type="tel"
+                    id="phone"
+                    name="phone"
+                    required
+                    class="peer w-full bg-transparent border-b border-white/20 py-3 text-white placeholder-transparent focus:outline-none focus:border-[var(--brand-accent)] transition-colors font-light tracking-wide"
+                    placeholder="Phone"
+                  />
+                  <label
+                    for="phone"
+                    class="absolute left-0 -top-3.5 text-xs text-gray-500 transition-all peer-placeholder-shown:text-base peer-placeholder-shown:text-white/40 peer-placeholder-shown:top-3 peer-focus:-top-3.5 peer-focus:text-[var(--brand-accent)] peer-focus:text-xs uppercase tracking-widest"
+                  >
+                    Phone Number
+                  </label>
+                </div>
+              </div>
+
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="group relative">
+                  <select
+                    id="position"
+                    name="position"
+                    class="peer w-full bg-transparent border-b border-white/20 py-3 text-white focus:outline-none focus:border-[var(--brand-accent)] transition-colors font-light tracking-wide appearance-none"
+                  >
+                    <option
+                      value=""
+                      disabled
+                      selected
+                      class="bg-[#111] text-white/50">Select Position</option
+                    >
+                    <option value="Painter" class="bg-[#111]"
+                      >Professional Painter</option
+                    >
+                    <option value="Prep" class="bg-[#111]">Prep / Helper</option
+                    >
+                    <option value="Foreman" class="bg-[#111]"
+                      >Foreman / Lead</option
+                    >
+                    <option value="Other" class="bg-[#111]">Other</option>
+                  </select>
+                  <label
+                    class="absolute left-0 -top-3.5 text-xs text-gray-500 uppercase tracking-widest"
+                  >
+                    Position Applying For
+                  </label>
+                </div>
+
+                <div class="group relative">
+                  <input
+                    type="number"
+                    id="experience"
+                    name="experience"
+                    min="0"
+                    class="peer w-full bg-transparent border-b border-white/20 py-3 text-white placeholder-transparent focus:outline-none focus:border-[var(--brand-accent)] transition-colors font-light tracking-wide"
+                    placeholder="Years"
+                  />
+                  <label
+                    for="experience"
+                    class="absolute left-0 -top-3.5 text-xs text-gray-500 transition-all peer-placeholder-shown:text-base peer-placeholder-shown:text-white/40 peer-placeholder-shown:top-3 peer-focus:-top-3.5 peer-focus:text-[var(--brand-accent)] peer-focus:text-xs uppercase tracking-widest"
+                  >
+                    Years of Experience
+                  </label>
+                </div>
+              </div>
+
+              <div class="group relative">
+                <textarea
+                  id="skills"
+                  name="skills"
+                  rows="4"
+                  required
+                  class="peer w-full bg-transparent border-b border-white/20 py-3 text-white placeholder-transparent focus:outline-none focus:border-[var(--brand-accent)] transition-colors font-light tracking-wide resize-none"
+                  placeholder="Tell us about your skills..."></textarea>
+                <label
+                  for="skills"
+                  class="absolute left-0 -top-3.5 text-xs text-gray-500 transition-all peer-placeholder-shown:text-base peer-placeholder-shown:text-white/40 peer-placeholder-shown:top-3 peer-focus:-top-3.5 peer-focus:text-[var(--brand-accent)] peer-focus:text-xs uppercase tracking-widest"
+                >
+                  Skills & Past Experience
+                </label>
+              </div>
+
+              <div class="pt-4">
+                <button
+                  type="submit"
+                  class="group w-full py-4 bg-white text-black font-bold uppercase tracking-[0.2em] text-sm rounded-full hover:bg-[var(--brand-accent)] hover:text-white transition-all duration-300 flex items-center justify-center gap-2 shadow-[0_0_20px_rgba(255,255,255,0.1)]"
+                >
+                  <span>Submit Application</span>
+                </button>
+              </div>
+            </form>
+
+            <!-- Success Message -->
+            <div
+              id="success-message"
+              class="absolute inset-0 flex flex-col items-center justify-center text-center opacity-0 invisible transition-all duration-700 transform scale-95 pointer-events-none bg-[#111] rounded-[2rem] z-20"
+            >
+              <div
+                class="w-20 h-20 rounded-full bg-green-500/10 flex items-center justify-center mb-6"
+              >
+                <svg
+                  class="w-10 h-10 text-green-500"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                  ><path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M5 13l4 4L19 7"></path></svg
+                >
+              </div>
+              <h3 class="text-2xl font-serif font-medium text-white mb-2">
+                Application Received
+              </h3>
+              <p class="text-white/60 max-w-xs leading-relaxed text-sm">
+                Thank you for your interest. We will review your details and
+                contact you if your profile matches our needs.
+              </p>
+              <button
+                id="reset-btn"
+                class="mt-8 text-xs uppercase tracking-widest border-b border-gray-600 pb-1 hover:text-white hover:border-white transition-colors cursor-pointer pointer-events-auto"
+              >
+                Send another
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <style>
+      @keyframes fadeInUp {
+        from {
+          opacity: 0;
+          transform: translateY(20px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+      .animate-fade-in-up {
+        opacity: 0;
+        animation: fadeInUp 0.8s ease-out forwards;
+      }
+      .delay-100 {
+        animation-delay: 0.1s;
+      }
+      .delay-200 {
+        animation-delay: 0.2s;
+      }
+      .delay-300 {
+        animation-delay: 0.3s;
+      }
+    </style>
+
+    <script>
+      const form = document.getElementById(
+        "career-form",
+      ) as HTMLFormElement | null;
+      const successMsg = document.getElementById("success-message");
+      const resetBtn = document.getElementById("reset-btn");
+
+      // USAMOS TU MISMO ENDPOINT DE FORMSPREE
+      const FORMSPREE_ENDPOINT = "https://formspree.io/f/xdkjyjek";
+
+      if (form) {
+        form.addEventListener("submit", async (e) => {
+          e.preventDefault();
+          const btn = form.querySelector("button") as HTMLButtonElement | null;
+          if (!btn) return;
+
+          const originalText = btn.innerHTML;
+
+          btn.innerHTML = `<span class="animate-pulse">Sending...</span>`;
+          btn.disabled = true;
+
+          const formData = new FormData(form);
+
+          try {
+            const response = await fetch(FORMSPREE_ENDPOINT, {
+              method: "POST",
+              body: formData,
+              headers: { Accept: "application/json" },
+            });
+
+            if (response.ok) {
+              form.classList.add("opacity-0", "invisible");
+              if (successMsg) {
+                successMsg.classList.remove(
+                  "opacity-0",
+                  "invisible",
+                  "scale-95",
+                  "pointer-events-none",
+                );
+                successMsg.classList.add("opacity-100", "visible", "scale-100");
+              }
+              form.reset();
+            } else {
+              alert("Problem submitting. Please try again.");
+            }
+          } catch (error) {
+            alert("Network error.");
+          } finally {
+            if (btn) {
+              btn.disabled = false;
+              btn.innerHTML = originalText;
+            }
+          }
+        });
+      }
+
+      if (resetBtn) {
+        resetBtn.addEventListener("click", () => {
+          if (successMsg) {
+            successMsg.classList.remove("opacity-100", "visible", "scale-100");
+            successMsg.classList.add(
+              "opacity-0",
+              "invisible",
+              "scale-95",
+              "pointer-events-none",
+            );
+          }
+          if (form) {
+            form.classList.remove("opacity-0", "invisible");
+          }
+        });
+      }
+    </script>
+  </body>
+</html>
