@@ -1,0 +1,62 @@
+@import "tailwindcss";
+
+:root {
+  /* === PALETA EXACTA DE TU IMAGEN (RVN-Colors) === */
+  
+  /* 1. Definición de Colores Base */
+  --color-black: #0A0908;    /* Negro Suave */
+  --color-gunmetal: #22333B; /* Azul Grisáceo Oscuro */
+  --color-bone: #EAE0D5;     /* Hueso/Crema */
+  --color-khaki: #C6AC8F;    /* Beige Dorado */
+  --color-walnut: #5E503F;   /* Café Nogal */
+
+  /* 2. Variables Semánticas (Cómo se usan en la web) */
+  
+  /* Fondo General: Usamos un tono muy claro derivado del Hueso para que sea limpio */
+  --brand-bg: #F9F8F6; 
+  
+  /* Fondo Secundario (Para tarjetas o secciones alternas) */
+  --brand-bg-secondary: var(--color-bone);
+
+  /* Color Principal de Marca (Navbar, Encabezados fuertes) */
+  --brand-primary: var(--color-gunmetal);
+
+  /* Color de Acento (Botones, Enlaces, Detalles) */
+  --brand-accent: var(--color-khaki);
+  
+  /* Hover para el acento (Un poco más oscuro para interacción) */
+  --brand-accent-hover: #b0967a;
+
+  /* Textos */
+  --brand-text-main: var(--color-black);
+  --brand-text-muted: var(--color-walnut);
+  
+  /* Bordes Sutiles */
+  --brand-border: #dcd2c5;
+}
+
+html {
+  scroll-behavior: smooth;
+  background-color: var(--brand-bg);
+}
+
+body {
+  /* Fuente nativa estilo Apple */
+  font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  
+  background-color: var(--brand-bg);
+  color: var(--brand-text-main);
+  
+  overflow-x: hidden;
+}
+
+/* Utilidad para ocultar barras de scroll en carruseles */
+.scrollbar-hide::-webkit-scrollbar {
+    display: none;
+}
+.scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}

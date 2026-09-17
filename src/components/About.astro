@@ -1,0 +1,124 @@
+---
+// src/components/About.astro
+import { site, home } from "../lib/content";
+
+const about = home.about;
+
+// SEO: Schema Markup específico para la sección "About"
+const aboutSchema = {
+  "@context": "https://schema.org",
+  "@type": "AboutPage",
+  mainEntity: {
+    "@type": "LocalBusiness",
+    name: site.brand.name,
+    description: about.schemaDescription,
+    foundingLocation: {
+      "@type": "City",
+      name: site.contact.city,
+    },
+    knowsAbout: site.business.knowsAbout,
+    priceRange: site.business.priceRange,
+  },
+};
+---
+
+<section
+  id="about"
+  class="relative py-24 md:py-32 bg-[#080808] text-white overflow-hidden"
+  itemscope
+  itemtype="https://schema.org/LocalBusiness"
+>
+  <!-- Metadata invisible para el crawler -->
+  <meta itemprop="name" content={site.brand.name} />
+  <meta itemprop="description" content={about.metaDescription} />
+  <meta
+    itemprop="address"
+    content={`${site.contact.city}, ${site.contact.region}`}
+  />
+
+  <div class="max-w-7xl mx-auto px-6">
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-24 items-center">
+      <!-- 1. Imagen Editorial (Izquierda) -->
+      <div class="relative group">
+        <!-- Marco decorativo -->
+        <div
+          class="absolute -top-4 -left-4 w-full h-full border border-white/10 rounded-sm z-0 transition-transform duration-500 group-hover:translate-x-2 group-hover:translate-y-2"
+        >
+        </div>
+
+        <div
+          class="relative z-10 overflow-hidden rounded-sm aspect-[4/5] bg-[#111]"
+        >
+          <!-- Imagen de "Artesano" con Alt Text SEO -->
+          <img
+            src={about.image}
+            alt={about.imageAlt}
+            itemprop="image"
+            class="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700 ease-out opacity-80 group-hover:opacity-100 scale-105 group-hover:scale-100"
+          />
+          <!-- Overlay Gradiente -->
+          <div
+            class="absolute inset-0 bg-gradient-to-t from-[#080808] via-transparent to-transparent opacity-50"
+          >
+          </div>
+        </div>
+
+        <!-- Etiqueta Flotante -->
+        <div
+          class="absolute bottom-8 right-[-20px] bg-white text-black py-4 px-8 shadow-2xl shadow-white/10 animate-fade-in-up delay-300 hidden md:block"
+        >
+          <p class="font-serif italic text-xl">{about.quote}</p>
+        </div>
+      </div>
+
+      <!-- 2. Contenido (Derecha) -->
+      <div>
+        <span
+          class="text-[var(--brand-blue)] font-bold tracking-[0.2em] uppercase text-xs block mb-6"
+        >
+          {about.eyebrow}
+        </span>
+
+        <h2 class="text-4xl md:text-6xl font-light leading-[1.1] mb-8">
+          {about.headingLine1} <br />
+          <span class="font-serif italic text-gray-400"
+            >{about.headingLine2}</span
+          >
+        </h2>
+
+        <div class="space-y-6 text-gray-400 font-light text-lg leading-relaxed">
+          {about.paragraphs.map((paragraph) => <p set:html={paragraph} />)}
+        </div>
+
+        <!-- Stats Grid -->
+        <div
+          class="grid grid-cols-3 gap-8 mt-12 pt-12 border-t border-white/10"
+        >
+          {
+            about.stats.map((stat) => (
+              <div>
+                <span class="block text-3xl md:text-4xl font-light text-white mb-1">
+                  {stat.value}
+                </span>
+                <span class="text-xs uppercase tracking-widest text-gray-500">
+                  {stat.label}
+                </span>
+              </div>
+            ))
+          }
+        </div>
+
+        <!-- Firma / Cierre -->
+        <div class="mt-12 flex items-center gap-4">
+          <div class="h-px w-12 bg-[var(--brand-blue)]"></div>
+          <span class="text-sm font-medium tracking-widest uppercase text-white"
+            >{about.signature}</span
+          >
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SEO: JSON-LD Script Inyectado -->
+<script type="application/ld+json" set:html={JSON.stringify(aboutSchema)} />

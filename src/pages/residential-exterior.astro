@@ -1,0 +1,181 @@
+---
+import "../styles/global.css";
+import Navbar from "../components/Navbar.astro";
+import ServiceGallery from "../components/ServiceGallery.astro";
+import { pages } from "../lib/content";
+
+const page = pages["residential-exterior"];
+const { seo, hero, essence, gallery, cta } = page;
+---
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- SEO OPTIMIZED FOR BAKERSFIELD -->
+    <title>{seo.title}</title>
+    <meta name="description" content={seo.description} />
+    <meta name="keywords" content={seo.keywords} />
+    <meta name="robots" content="index, follow" />
+    <meta property="og:title" content={seo.ogTitle} />
+    <meta property="og:description" content={seo.ogDescription} />
+    <meta property="og:image" content={seo.ogImage} />
+  </head>
+  <body>
+    <Navbar />
+
+    <section
+      class="bg-[#050505] text-white min-h-screen font-sans selection:bg-[var(--brand-blue)] selection:text-white"
+    >
+      <!-- 1. Minimalist Hero -->
+      <div
+        class="relative h-[85vh] flex items-center justify-center overflow-hidden"
+      >
+        <div class="absolute inset-0 z-0">
+          <!-- Luxury Exterior Image -->
+          <img
+            src={hero.image}
+            alt={hero.imageAlt}
+            class="w-full h-full object-cover opacity-60 scale-105 animate-slow-zoom"
+          />
+          <div
+            class="absolute inset-0 bg-gradient-to-t from-[#050505] via-[#050505]/30 to-transparent"
+          >
+          </div>
+        </div>
+
+        <div class="relative z-10 text-center px-6 max-w-4xl mt-20">
+          <span
+            class="text-[10px] md:text-xs font-medium tracking-[0.3em] uppercase text-gray-400 mb-6 block animate-fade-in-up"
+          >
+            {hero.eyebrow}
+          </span>
+          <h1
+            class="text-4xl md:text-7xl font-light tracking-tight text-white mb-8 leading-[1.1] animate-fade-in-up delay-100"
+          >
+            {hero.headingText} <span class="font-serif italic text-gray-300"
+              >{hero.headingAccent}</span
+            >
+          </h1>
+          <p
+            class="text-lg md:text-xl text-gray-300/90 font-light max-w-xl mx-auto leading-relaxed mb-10 animate-fade-in-up delay-200"
+          >
+            {hero.description}
+          </p>
+
+          <div class="animate-fade-in-up delay-300">
+            <!-- FIXED: Points to new contact page -->
+            <a
+              href={hero.ctaHref}
+              class="border border-white/20 bg-white/5 backdrop-blur-sm hover:bg-white hover:text-black text-white px-8 py-4 rounded-full transition-all duration-300 text-sm uppercase tracking-widest"
+            >
+              {hero.ctaLabel}
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- 2. The Essence (What we do) -->
+      <div class="max-w-7xl mx-auto px-6 py-24 md:py-32">
+        <div
+          class="grid grid-cols-1 md:grid-cols-2 gap-16 md:gap-24 items-center"
+        >
+          <div class="space-y-8 order-2 md:order-1">
+            <h2 class="text-3xl md:text-4xl font-light mb-6">
+              {essence.headingLine1} <br />{essence.headingLine2}
+            </h2>
+            <p class="text-gray-400 font-light leading-loose text-lg">
+              {essence.description}
+            </p>
+
+            <div class="grid gap-6 pt-4">
+              {
+                essence.steps.map((step, index) => (
+                  <div class="group flex items-start gap-4">
+                    <span class="text-2xl font-serif text-gray-600 group-hover:text-white transition-colors">
+                      {String(index + 1).padStart(2, "0")}
+                    </span>
+                    <div>
+                      <h4 class="text-lg font-medium mb-1">{step.title}</h4>
+                      <p class="text-sm text-gray-500 font-light">{step.desc}</p>
+                    </div>
+                  </div>
+                ))
+              }
+            </div>
+          </div>
+
+          <!-- Imagen Minimalista Vertical -->
+          <div
+            class="relative h-[400px] md:h-[600px] w-full overflow-hidden rounded-sm order-1 md:order-2"
+          >
+            <img
+              src={essence.image}
+              alt={essence.imageAlt}
+              class="w-full h-full object-cover hover:scale-105 transition-transform duration-700 ease-out"
+            />
+          </div>
+        </div>
+      </div>
+
+      <!-- 3. Curated Gallery -->
+      <ServiceGallery gallery={gallery} />
+
+      <!-- 4. Minimalist CTA -->
+      <div class="py-32 px-6 text-center">
+        <h2 class="text-3xl md:text-5xl font-light mb-8 tracking-tight">
+          {cta.headingText} <span class="text-gray-500">{cta.headingAccent}</span>
+        </h2>
+        <p class="text-gray-400 max-w-lg mx-auto mb-12 font-light">
+          {cta.description}
+        </p>
+        <!-- FIXED: Points to new contact page -->
+        <a
+          href={cta.buttonHref}
+          class="inline-block bg-white text-black px-10 py-4 rounded-full font-medium text-sm uppercase tracking-widest hover:bg-[var(--brand-blue)] hover:text-white transition-all duration-300 shadow-[0_0_40px_rgba(255,255,255,0.1)]"
+        >
+          {cta.buttonLabel}
+        </a>
+      </div>
+    </section>
+
+    <style>
+      @keyframes slow-zoom {
+        0% {
+          transform: scale(1.05);
+        }
+        100% {
+          transform: scale(1.15);
+        }
+      }
+      .animate-slow-zoom {
+        animation: slow-zoom 20s ease-in-out infinite alternate;
+      }
+
+      @keyframes fadeInUp {
+        from {
+          opacity: 0;
+          transform: translateY(20px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+      .animate-fade-in-up {
+        opacity: 0;
+        animation: fadeInUp 1s ease-out forwards;
+      }
+
+      .delay-100 {
+        animation-delay: 0.15s;
+      }
+      .delay-200 {
+        animation-delay: 0.3s;
+      }
+      .delay-300 {
+        animation-delay: 0.45s;
+      }
+    </style>
+  </body>
+</html>

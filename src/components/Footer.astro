@@ -1,0 +1,220 @@
+---
+// src/components/Footer.astro
+import { site, navigation, telHref, mailtoHref } from "../lib/content";
+
+const currentYear = new Date().getFullYear();
+
+const socials = site.socials;
+const footer = navigation.footer;
+---
+
+<footer
+  class="relative bg-[#050505] text-[#EAE0D5] overflow-hidden pt-20 border-t border-white/5"
+>
+  <!-- Tipografía Gigante de Fondo -->
+  <div
+    class="absolute top-0 left-1/2 -translate-x-1/2 w-full text-center pointer-events-none select-none overflow-hidden"
+  >
+    <h1
+      class="text-[18vw] leading-[0.8] font-serif font-bold text-white opacity-[0.02] tracking-tighter whitespace-nowrap"
+    >
+      {site.brand.footerWordmark}
+    </h1>
+  </div>
+
+  <div class="max-w-7xl mx-auto px-6 relative z-10">
+    <div
+      class="grid grid-cols-1 md:grid-cols-12 gap-12 md:gap-8 pb-20 border-b border-white/10"
+    >
+      <!-- Columna 1: Brand & Social -->
+      <div class="md:col-span-4 flex flex-col justify-between h-full">
+        <div>
+          <a href="/" class="inline-block mb-8 group">
+            <span
+              class="font-serif text-3xl text-white tracking-wide group-hover:text-[var(--brand-accent)] transition-colors duration-300"
+            >
+              {site.brand.footerName}
+            </span>
+            <span
+              class="block text-[10px] uppercase tracking-[0.4em] text-[var(--brand-accent)] opacity-80 mt-1"
+            >
+              {site.brand.footerTagline}
+            </span>
+          </a>
+
+          <p class="text-white/60 font-light text-lg leading-relaxed max-w-sm">
+            {site.brand.footerDescription}
+          </p>
+        </div>
+
+        <div class="flex gap-6 mt-10">
+          {
+            socials.map((social) => (
+              <a
+                href={social.url}
+                aria-label={social.name}
+                target="_blank"
+                rel="noopener noreferrer"
+                class="group relative w-12 h-12 flex items-center justify-center rounded-full border border-white/20 hover:border-[var(--brand-accent)] hover:bg-[var(--brand-accent)] transition-all duration-300"
+              >
+                <svg
+                  class="w-5 h-5 text-white group-hover:text-[#050505] transition-colors"
+                  fill="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path d={social.icon} />
+                </svg>
+              </a>
+            ))
+          }
+        </div>
+      </div>
+
+      <!-- Columna 2: Company -->
+      <div class="md:col-span-2 md:pl-4">
+        <h4
+          class="text-[var(--brand-accent)] font-bold uppercase tracking-[0.2em] text-xs mb-8"
+        >
+          {footer.companyHeading}
+        </h4>
+        <ul class="space-y-4">
+          {
+            footer.companyLinks.map((link) => (
+              <li>
+                <a
+                  href={link.href}
+                  class="group inline-flex items-center gap-2 text-white/70 hover:text-white text-sm font-medium uppercase tracking-widest transition-colors"
+                >
+                  <span class="w-0 h-px bg-[var(--brand-accent)] transition-all duration-300 group-hover:w-4" />
+                  {link.label}
+                  {link.badge && (
+                    <span class="ml-2 w-2 h-2 rounded-full bg-[var(--brand-accent)] animate-pulse" />
+                  )}
+                </a>
+              </li>
+            ))
+          }
+        </ul>
+      </div>
+
+      <!-- Columna 3: Services (NUEVO) -->
+      <div class="md:col-span-3">
+        <h4
+          class="text-[var(--brand-accent)] font-bold uppercase tracking-[0.2em] text-xs mb-8"
+        >
+          {footer.servicesHeading}
+        </h4>
+        <ul class="space-y-4">
+          {
+            footer.servicesLinks.map((link) => (
+              <li>
+                <a
+                  href={link.href}
+                  class="group inline-flex items-center gap-2 text-white/70 hover:text-white text-sm font-medium uppercase tracking-widest transition-colors"
+                >
+                  <span class="w-0 h-px bg-[var(--brand-accent)] transition-all duration-300 group-hover:w-4" />
+                  {link.label}
+                </a>
+              </li>
+            ))
+          }
+        </ul>
+      </div>
+
+      <!-- Columna 4: Contacto -->
+      <div class="md:col-span-3">
+        <h4
+          class="text-[var(--brand-accent)] font-bold uppercase tracking-[0.2em] text-xs mb-8"
+        >
+          {footer.contactHeading}
+        </h4>
+
+        <div class="space-y-6">
+          <div>
+            <p class="text-white text-lg font-serif">
+              {site.contact.addressLine}
+            </p>
+            <p class="text-white/50 text-sm font-light mt-1">
+              {site.contact.serviceAreaLine}
+            </p>
+          </div>
+
+          <div>
+            <a
+              href={telHref}
+              class="block text-2xl text-white font-light hover:text-[var(--brand-accent)] transition-colors"
+            >
+              {site.contact.phoneDisplay}
+            </a>
+            <span class="text-[10px] uppercase tracking-widest text-white/30"
+              >{site.contact.hours}</span
+            >
+          </div>
+
+          <div>
+            <a
+              href={mailtoHref}
+              class="text-lg text-white/80 hover:text-white border-b border-white/20 hover:border-[var(--brand-accent)] pb-1 transition-all"
+            >
+              {site.contact.email}
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="pt-8 pb-12 flex flex-col md:flex-row justify-between items-center gap-4 text-[10px] uppercase tracking-[0.15em] text-white/30 font-medium"
+    >
+      <div class="flex gap-6 flex-wrap justify-center">
+        <span>&copy; {currentYear} {site.brand.name}</span>
+        <span class="hidden md:inline">|</span>
+        {
+          footer.legalLinks.map((link) => (
+            <a href={link.href} class="hover:text-white transition-colors">
+              {link.label}
+            </a>
+          ))
+        }
+      </div>
+
+      <div class="flex items-center gap-2">
+        <span>{footer.credit}</span>
+        <div class="w-1 h-1 rounded-full bg-[var(--brand-accent)]"></div>
+      </div>
+    </div>
+  </div>
+
+  <button
+    id="back-to-top"
+    class="fixed bottom-8 right-8 z-40 w-12 h-12 bg-[var(--brand-accent)] text-[#050505] rounded-full flex items-center justify-center shadow-2xl shadow-black/50 translate-y-20 opacity-0 transition-all duration-500 hover:-translate-y-2 hover:bg-white"
+    aria-label="Back to top"
+  >
+    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+      ><path
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="2"
+        d="M5 10l7-7m0 0l7 7m-7-7v18"></path></svg
+    >
+  </button>
+</footer>
+
+<script>
+  // Lógica para el botón "Back to Top"
+  const backToTopBtn = document.getElementById("back-to-top");
+
+  if (backToTopBtn) {
+    window.addEventListener("scroll", () => {
+      if (window.scrollY > 500) {
+        backToTopBtn.classList.remove("translate-y-20", "opacity-0");
+      } else {
+        backToTopBtn.classList.add("translate-y-20", "opacity-0");
+      }
+    });
+
+    backToTopBtn.addEventListener("click", () => {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    });
+  }
+</script>
