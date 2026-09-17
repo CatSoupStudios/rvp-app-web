@@ -1,0 +1,83 @@
+{
+  "brand": {
+    "name": "Rangel Valley Painting",
+    "shortName": "Rangel Valley",
+    "navTitle": "RANGEL VALLEY",
+    "navSubtitle": "Painting Services",
+    "logo": "https://res.cloudinary.com/dlh3rtxxm/image/upload/v1763851619/logo-rvp_dwkycu.png",
+    "logoAlt": "Rangel Valley Logo",
+    "footerWordmark": "RANGEL VALLEY",
+    "footerName": "Rangel Valley.",
+    "footerTagline": "Est. Legacy in Kern County",
+    "footerDescription": "Elevating properties through precision painting and architectural finishes. We don't just cover walls; we define spaces."
+  },
+  "contact": {
+    "phoneDisplay": "(661) 428-6638",
+    "phoneLink": "6614286638",
+    "phoneSchema": "+16614286638",
+    "email": "info@rangelvalleypainting.com",
+    "hours": "Mon - Sat, 8am - 6pm",
+    "addressLine": "Bakersfield, California",
+    "serviceAreaLine": "Serving Bakersfield, Seven Oaks, Stockdale & Kern County",
+    "city": "Bakersfield",
+    "region": "CA",
+    "country": "US",
+    "latitude": "35.3733",
+    "longitude": "-119.0187"
+  },
+  "socials": [
+    {
+      "name": "Instagram",
+      "url": "https://www.instagram.com/rangelvalleypainting/",
+      "icon": "M11.344 2h1.312c6.745 0 7.944.277 8.588.623a5.499 5.499 0 0 1 2.128 1.374 5.499 5.499 0 0 1 1.374 2.128c.346.644.623 1.843.623 8.588v1.312c0 6.745-.277 7.944-.623 8.588a5.499 5.499 0 0 1-1.374 2.128 5.499 5.499 0 0 1-2.128 1.374c-.644.346-1.843.623-8.588.623H12.656c-6.745 0-7.944-.277-8.588-.623a5.499 5.499 0 0 1-2.128-1.374 5.499 5.499 0 0 1-1.374-2.128c-.346-.644-.623-1.843-.623-8.588V12.656c0-6.745.277-7.944.623-8.588a5.499 5.499 0 0 1 1.374-2.128 5.499 5.499 0 0 1 2.128-1.374c.644-.346 1.843-.623 8.588-.623zM12 7a5 5 0 1 0 0 10 5 5 0 0 0 0-10zm0 1.866a3.134 3.134 0 1 1 0 6.268 3.134 3.134 0 0 1 0-6.268zm5.896-2.998a1.12 1.12 0 1 0 0 2.24 1.12 1.12 0 0 0 0-2.24z"
+    },
+    {
+      "name": "Facebook",
+      "url": "https://www.facebook.com/rangelvalleypaintinginc",
+      "icon": "M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z"
+    }
+  ],
+  "seo": {
+    "defaultTitle": "Rangel Valley Painting | Premium Works in Bakersfield, CA",
+    "defaultDescription": "Expert residential and commercial painting in Bakersfield. Specializing in cabinet refinishing, interiors, and luxury exterior transformations.",
+    "defaultImage": "https://res.cloudinary.com/dlh3rtxxm/image/upload/v1763851619/logo-rvp_dwkycu.png",
+    "keywords": "Painters Bakersfield, House Painting Kern County, Cabinet Refinishing, Rangel Valley Painting, Exterior Painting, Interior Painters, Seven Oaks Painters, Luxury Painting",
+    "author": "Rangel Valley Painting",
+    "googleSiteVerification": "sv4FkBbco20IYERUoVJ43xieJoDijqsWACDwtV-t5cM",
+    "siteName": "Rangel Valley Painting",
+    "locale": "en_US"
+  },
+  "business": {
+    "priceRange": "$$",
+    "schemaImage": "https://www.rangelvalleypainting.com/logo.png",
+    "siteUrl": "https://www.rangelvalleypainting.com",
+    "areasServed": [
+      "Bakersfield",
+      "Seven Oaks",
+      "Stockdale Estates",
+      "Tehachapi",
+      "California City"
+    ],
+    "openingHours": {
+      "days": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ],
+      "opens": "08:00",
+      "closes": "18:00"
+    },
+    "knowsAbout": [
+      "Interior Painting",
+      "Exterior Painting",
+      "Cabinet Refinishing",
+      "Craftsmanship"
+    ]
+  },
+  "forms": {
+    "formspreeEndpoint": "https://formspree.io/f/xdkjyjek"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "items": [
+    {
+      "category": "Residential Interior",
+      "title": "Modern Farmhouse Renovation",
+      "location": "Bakersfield, CA",
+      "image": "https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg"
+    },
+    {
+      "category": "Cabinet Refinishing",
+      "title": "Matte Black Kitchen Transformation",
+      "location": "Seven Oaks",
+      "image": "https://images.pexels.com/photos/3016430/pexels-photo-3016430.jpeg"
+    },
+    {
+      "category": "Exterior Protection",
+      "title": "Estate Stucco Restoration",
+      "location": "Stockdale Estates",
+      "image": "https://images.pexels.com/photos/206172/pexels-photo-206172.jpeg"
+    },
+    {
+      "category": "Commercial",
+      "title": "Boutique Office Space",
+      "location": "Downtown Bakersfield",
+      "image": "https://images.pexels.com/photos/1170412/pexels-photo-1170412.jpeg"
+    }
+  ]
+}

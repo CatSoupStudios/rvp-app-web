@@ -1,0 +1,61 @@
+{
+  "serviceMenu": [
+    {
+      "name": "Residential Interior",
+      "desc": "Walls, ceilings, cabinets & fine trim details.",
+      "slug": "residential-interior"
+    },
+    {
+      "name": "Residential Exterior",
+      "desc": "Stucco, siding, protection & curb appeal.",
+      "slug": "residential-exterior"
+    },
+    {
+      "name": "Commercial Services",
+      "desc": "Offices, retail spaces, HOAs & industrial.",
+      "slug": "commercial-services"
+    },
+    {
+      "name": "Cabinet Refinishing",
+      "desc": "Factory-grade finish transformation.",
+      "slug": "cabinet-refinishing"
+    }
+  ],
+  "navLinks": [
+    { "label": "Home", "href": "/" },
+    { "label": "Our Work", "href": "/#projects" },
+    { "label": "Gallery", "href": "/gallery" },
+    { "label": "About", "href": "/#about", "mobileLabel": "About Us" }
+  ],
+  "servicesDropdownLabel": "Services",
+  "servicesDropdownFooter": "View All Services",
+  "ctaLabel": "Get Quote",
+  "mobile": {
+    "menuTitle": "Menu",
+    "servicesLabel": "Services",
+    "ctaLabel": "Get Free Estimate"
+  },
+  "footer": {
+    "companyHeading": "Company",
+    "companyLinks": [
+      { "label": "Home", "href": "/", "badge": false },
+      { "label": "About", "href": "/#about", "badge": false },
+      { "label": "Our Work", "href": "/#projects", "badge": false },
+      { "label": "Careers", "href": "/careers", "badge": true },
+      { "label": "Contact", "href": "/contact", "badge": false }
+    ],
+    "servicesHeading": "Services",
+    "servicesLinks": [
+      { "label": "Cabinet Refinishing", "href": "/cabinet-refinishing" },
+      { "label": "Residential Interior", "href": "/residential-interior" },
+      { "label": "Residential Exterior", "href": "/residential-exterior" },
+      { "label": "Commercial Services", "href": "/commercial-services" }
+    ],
+    "contactHeading": "Headquarters",
+    "legalLinks": [
+      { "label": "Privacy Policy", "href": "#" },
+      { "label": "Terms of Service", "href": "#" }
+    ],
+    "credit": "Designed with precision"
+  }
+}

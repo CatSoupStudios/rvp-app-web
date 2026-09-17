@@ -1,0 +1,145 @@
+{
+  "hero": {
+    "backgroundImage": "https://homes-and-villas.marriott.com/hvmb-pictures/40506546/e9d23c3b680750dd-638697428615217158.jpg",
+    "backgroundAlt": "Luxury Residential Painting Bakersfield",
+    "badge": "Serving Bakersfield & Kern County",
+    "headingLine1": "The art of enduring quality.",
+    "headingLine2": "Premier Painters in Bakersfield.",
+    "description": "Elevating Bakersfield homes with master craftsmanship. From <strong>cabinet refinishing</strong> to <strong>luxury exteriors</strong>, we deliver flawless finishes that redefine your property.",
+    "primaryCta": {
+      "label": "Get Free Estimate",
+      "href": "/contact"
+    },
+    "secondaryCta": {
+      "label": "Explore Services",
+      "href": "#services"
+    },
+    "schemaDescription": "Premier residential and commercial painting services in Bakersfield, CA. Specializing in cabinet refinishing, interior, and exterior transformations."
+  },
+  "services": {
+    "eyebrow": "Our Expertise",
+    "headingLine1": "Expert Painting Services",
+    "headingLine2": "designed to endure.",
+    "description": "Every surface is treated with meticulous preparation and architectural-level detailing. We provide the most reliable <strong>painting services in Bakersfield</strong>.",
+    "ctaLabel": "Request Detailed Pricing Guide",
+    "ctaHref": "/contact"
+  },
+  "about": {
+    "image": "https://images.unsplash.com/photo-1715370251690-9a5ddd6849dc?q=80&w=774&auto=format&fit=crop",
+    "imageAlt": "Professional painter craftsman from Rangel Valley Painting Bakersfield applying detail work",
+    "quote": "\"Quality over quantity.\"",
+    "eyebrow": "About Rangel Valley",
+    "headingLine1": "More than painters.",
+    "headingLine2": "We are craftsmen.",
+    "paragraphs": [
+      "Among <strong>Painters in Bakersfield</strong>, true craftsmanship is rare. <strong>Rangel Valley Painting</strong> stands out by treating every home in <span itemprop=\"areaServed\">Kern County</span> as a masterpiece.",
+      "We don't rush. We don't cut corners on prep work. We believe that the longevity of a finish is determined long before the brush touches the wall. From rigorous sanding to using only premium-grade coatings, our process is designed for homeowners who value excellence."
+    ],
+    "stats": [
+      {
+        "value": "15+",
+        "label": "Years Exp."
+      },
+      {
+        "value": "100%",
+        "label": "Satisfaction"
+      },
+      {
+        "value": "500+",
+        "label": "Projects"
+      }
+    ],
+    "signature": "The Rangel Standard",
+    "schemaDescription": "Premier painting craftsmen in Bakersfield dedicated to quality over quantity. Specializing in residential and commercial transformations.",
+    "metaDescription": "Bakersfield's premier painting craftsmen, prioritizing rigorous prep work and premium-grade coatings."
+  },
+  "projects": {
+    "eyebrow": "Selected Works",
+    "headingLine1": "Evidence of",
+    "headingLine2": "Excellence.",
+    "ctaLabel": "View Full Portfolio",
+    "ctaHref": "#contact",
+    "mobileCtaLabel": "View All Projects",
+    "mobileCtaHref": "#portfolio"
+  },
+  "process": {
+    "eyebrow": "The Rangel Standard",
+    "headingLine1": "Seamless execution.",
+    "headingLine2": "Zero stress.",
+    "description": "We’ve refined our workflow to respect your time and your property. A luxury result requires a luxury experience.",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Consultation",
+        "desc": "Detailed walkthrough & transparent proposal. No hidden fees."
+      },
+      {
+        "number": "02",
+        "title": "Meticulous Prep",
+        "desc": "Floors masked, furniture protected. We treat your home like ours."
+      },
+      {
+        "number": "03",
+        "title": "Execution",
+        "desc": "Efficient work with premium coatings for a factory-grade finish."
+      },
+      {
+        "number": "04",
+        "title": "Final Walkthrough",
+        "desc": "We inspect every inch with you. We aren't happy until you are."
+      }
+    ],
+    "trustValues": [
+      "Family Owned & Operated",
+      "Kern County Natives",
+      "Legacy of Craftsmanship",
+      "Honest Work, Fair Prices",
+      "Licensed & Insured",
+      "Building Trust Since Day One"
+    ]
+  },
+  "reviews": {
+    "badge": "Verified Client Reviews",
+    "heading": "Loved by locals.",
+    "ratingValue": "4.8",
+    "reviewCount": "16"
+  },
+  "contact": {
+    "eyebrow": "Get in Touch",
+    "headingLine1": "Ready to elevate",
+    "headingLine2": "your space?",
+    "description": "Tell us about your vision. Whether it's a single room refresh or a full estate transformation, we bring the same level of precision to every project.",
+    "phoneLabel": "Call us directly",
+    "emailLabel": "Email us",
+    "form": {
+      "nameLabel": "Full Name",
+      "phoneLabel": "Phone Number",
+      "emailLabel": "Email Address",
+      "serviceLabel": "Interested In",
+      "servicePlaceholder": "Select a Service",
+      "serviceOptions": [
+        {
+          "value": "interior",
+          "label": "Residential Interior"
+        },
+        {
+          "value": "exterior",
+          "label": "Residential Exterior"
+        },
+        {
+          "value": "cabinets",
+          "label": "Cabinet Refinishing"
+        },
+        {
+          "value": "commercial",
+          "label": "Commercial Project"
+        }
+      ],
+      "messageLabel": "Project Details",
+      "submitLabel": "Send Message",
+      "successTitle": "Message Sent",
+      "successMessageText": "Thank you. We have received your inquiry and will be in touch shortly.",
+      "successResetLabel": "Send another message"
+    }
+  }
+}

@@ -1,0 +1,416 @@
+{
+  "cabinet-refinishing": {
+    "seo": {
+      "title": "Cabinet Refinishing Bakersfield | Rangel Valley Painting",
+      "description": "Transform your kitchen with expert cabinet refinishing in Bakersfield. Factory-grade spray finishes, modern colors, and durable protection for a fraction of the cost of replacement.",
+      "keywords": "cabinet refinishing bakersfield, kitchen cabinet painting, cabinet painters, spray finish cabinets, kitchen makeover, rangel valley painting",
+      "ogTitle": "Cabinet Refinishing Bakersfield | Rangel Valley Painting",
+      "ogDescription": "Don't replace—refinish. Get a factory-new look for your cabinets with our premium spray systems.",
+      "ogImage": "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?q=80&w=1200"
+    },
+    "hero": {
+      "image": "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?q=80&w=2400&auto=format&fit=crop",
+      "imageAlt": "Luxury Kitchen Cabinet Refinishing Bakersfield",
+      "eyebrow": "Specialized Finishes",
+      "headingText": "The Factory",
+      "headingAccent": "Fresh Look",
+      "description": "Transform your dated kitchen without the cost of a remodel. We apply industrial-grade coatings for a durable, flawless finish that rivals new cabinetry.",
+      "ctaLabel": "Get a Free Estimate",
+      "ctaHref": "/contact"
+    },
+    "essence": {
+      "headingLine1": "Precision",
+      "headingLine2": "Spray System.",
+      "description": "We don't just paint cabinets; we refinish them. Our process involves removing doors and drawers to be sprayed in our shop, ensuring a smooth, glass-like surface free of brush marks.",
+      "steps": [
+        {
+          "title": "Degrease & Sand",
+          "desc": "Complete removal of oils and old varnish for perfect adhesion."
+        },
+        {
+          "title": "KCMA Certified Coatings",
+          "desc": "We use 2K polyurethanes designed specifically for cabinet durability."
+        },
+        {
+          "title": "Factory Finish",
+          "desc": "Doors are sprayed flat for a level, flawless result."
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf?q=80&w=1000&auto=format&fit=crop",
+      "imageAlt": "Painted Blue Kitchen Cabinets"
+    },
+    "gallery": {
+      "eyebrow": "Portfolio",
+      "heading": "Cabinet Transformations",
+      "ctaLabel": "Start Your Project",
+      "ctaHref": "/contact",
+      "images": [
+        {
+          "image": "https://images.unsplash.com/photo-1613549146815-1629797797f6?q=80&w=842&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "alt": "Modern White Kitchen Cabinets Bakersfield Refinishing",
+          "caption": "Modern Two-Tone"
+        },
+        {
+          "image": "https://images.unsplash.com/photo-1556912172-45b7abe8b7e1?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "alt": "Bright Kitchen Cabinet Makeover Seven Oaks",
+          "caption": ""
+        },
+        {
+          "image": "https://images.unsplash.com/photo-1505691723518-36a5ac3be353?q=80&w=1000&auto=format&fit=crop",
+          "alt": "Grey Custom Painted Cabinets Kern County",
+          "caption": "Solid Colors"
+        },
+        {
+          "image": "https://images.unsplash.com/photo-1763485957127-5645e9348426?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "alt": "Kitchen Island Painting Detail Bakersfield CA",
+          "caption": "Islands & Vanities"
+        },
+        {
+          "image": "https://images.unsplash.com/photo-1507089947368-19c1da9775ae?q=80&w=1000&auto=format&fit=crop",
+          "alt": "Minimalist Kitchen Restoration Stockdale",
+          "caption": ""
+        }
+      ],
+      "quote": {
+        "text": "\"Kitchens should be designed around what's truly important—fun, food, and life.\"",
+        "author": "— Daniel Boulud"
+      }
+    },
+    "cta": {
+      "headingText": "Love your kitchen",
+      "headingAccent": "again.",
+      "description": "Save thousands compared to replacement. Contact us for a free consultation and see our sample finishes.",
+      "buttonLabel": "Get a Quote",
+      "buttonHref": "/contact"
+    }
+  },
+
+  "residential-interior": {
+    "seo": {
+      "title": "Residential Interior Painting Bakersfield | Rangel Valley Painting",
+      "description": "Transform your home's interior with premium painting services in Bakersfield. Expert cabinet refinishing, wall painting, and fine trim details. Free estimates.",
+      "keywords": "interior painting bakersfield, cabinet refinishing, home painters bakersfield, luxury interior painting, trim painting, wall painting, rangel valley painting",
+      "ogTitle": "Residential Interior Painting Bakersfield | Rangel Valley Painting",
+      "ogDescription": "Flawless interior finishes for your home. From cabinets to ceilings, we deliver gallery-quality results.",
+      "ogImage": "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?q=80&w=1200"
+    },
+    "hero": {
+      "image": "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?q=80&w=2574&auto=format&fit=crop",
+      "imageAlt": "Luxury Modern Interior Painting Bakersfield",
+      "eyebrow": "Residential Services",
+      "headingText": "Interior",
+      "headingAccent": "Perfection",
+      "description": "Elevate your living space with flawless finishes. We bring gallery-quality precision to your walls, ceilings, and cabinetry.",
+      "ctaLabel": "Request Consultation",
+      "ctaHref": "/contact"
+    },
+    "essence": {
+      "headingLine1": "The Art of",
+      "headingLine2": "Fine Painting.",
+      "description": "True luxury lies in the details you don't immediately see, but always feel. Our interior process is designed for homes that demand more than just a color change—they require a transformation in atmosphere.",
+      "steps": [
+        {
+          "title": "Surface Mastery",
+          "desc": "Meticulous sanding, patching, and priming for glass-smooth walls."
+        },
+        {
+          "title": "Fine Finishes",
+          "desc": "Sprayed cabinetry and trim that looks factory-new."
+        },
+        {
+          "title": "White-Glove Care",
+          "desc": "Dustless systems and total property protection."
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1761864293821-033e75c1eba3?q=80&w=1160&auto=format&fit=crop",
+      "imageAlt": "Minimalist Bright Interior Design"
+    },
+    "gallery": {
+      "eyebrow": "Portfolio",
+      "heading": "Selected Interiors",
+      "ctaLabel": "Start Your Project",
+      "ctaHref": "/contact",
+      "images": [
+        {
+          "image": "https://images.unsplash.com/photo-1600210491892-03d54c0aaf87?q=80&w=1000&auto=format&fit=crop",
+          "alt": "Luxury Hallway Painting Bakersfield Interior",
+          "caption": "Hallways & Trim"
+        },
+        {
+          "image": "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?q=80&w=1258&auto=format&fit=crop",
+          "alt": "Modern Kitchen Cabinet Painting Bakersfield",
+          "caption": ""
+        },
+        {
+          "image": "https://images.unsplash.com/photo-1606744837616-56c9a5c6a6eb?q=80&w=870&auto=format&fit=crop",
+          "alt": "Minimalist Grey Wall Paint Kern County",
+          "caption": "Accent Walls"
+        },
+        {
+          "image": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?q=80&w=1000&auto=format&fit=crop",
+          "alt": "Cabinet Refinishing Detail Seven Oaks",
+          "caption": "Cabinet Refinishing"
+        },
+        {
+          "image": "https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf?q=80&w=1000&auto=format&fit=crop",
+          "alt": "Luxury Bedroom Paint Bakersfield",
+          "caption": ""
+        }
+      ],
+      "quote": {
+        "text": "\"Simplicity is the ultimate sophistication.\"",
+        "author": "— Leonardo da Vinci"
+      }
+    },
+    "cta": {
+      "headingText": "Ready for a",
+      "headingAccent": "change?",
+      "description": "Schedule a consultation to discuss your vision. We provide clear timelines, transparent pricing, and guaranteed results.",
+      "buttonLabel": "Get a Quote",
+      "buttonHref": "/contact"
+    }
+  },
+
+  "residential-exterior": {
+    "seo": {
+      "title": "Residential Exterior Painting Bakersfield | Rangel Valley Painting",
+      "description": "Premium residential exterior painting in Bakersfield, CA. Transform your home's curb appeal with luxury, weather-resistant coatings and stucco repair. Free estimates.",
+      "keywords": "exterior painting bakersfield, house painters bakersfield, stucco repair, luxury residential painting, rangel valley painting, exterior home makeover",
+      "ogTitle": "Residential Exterior Painting Bakersfield | Rangel Valley Painting",
+      "ogDescription": "Elevate your home's exterior with our high-end painting services in Bakersfield. Durable protection and stunning finishes.",
+      "ogImage": "https://images.unsplash.com/photo-1600607686527-6fb886090705?q=80&w=1200"
+    },
+    "hero": {
+      "image": "https://images.unsplash.com/photo-1600607686527-6fb886090705?q=80&w=2400&auto=format&fit=crop",
+      "imageAlt": "Luxury Modern Home Exterior in Bakersfield",
+      "eyebrow": "Exterior Solutions",
+      "headingText": "Defined by",
+      "headingAccent": "Curb Appeal",
+      "description": "Protect your investment with premium coatings that withstand the Bakersfield elements while delivering stunning architectural beauty.",
+      "ctaLabel": "Request Estimate",
+      "ctaHref": "/contact"
+    },
+    "essence": {
+      "headingLine1": "Enduring",
+      "headingLine2": "Protection.",
+      "description": "Exterior painting is your home's first line of defense. We combine rigorous preparation with high-performance paints to ensure your home looks exceptional for years to come.",
+      "steps": [
+        {
+          "title": "Deep Cleaning",
+          "desc": "Pressure washing to remove dirt, mildew, and loose paint."
+        },
+        {
+          "title": "Repair & Prime",
+          "desc": "Stucco patching, wood repair, and specialized primers."
+        },
+        {
+          "title": "Weatherproofing",
+          "desc": "Premium sealants and paints designed for UV and moisture resistance."
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1760839741156-06198798a321?q=80&w=774&auto=format&fit=crop",
+      "imageAlt": "Modern Exterior Detail"
+    },
+    "gallery": {
+      "eyebrow": "Portfolio",
+      "heading": "Exterior Transformations",
+      "ctaLabel": "Start Your Project",
+      "ctaHref": "/contact",
+      "images": [
+        {
+          "image": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?q=80&w=1000&auto=format&fit=crop",
+          "alt": "Full House Repaint Bakersfield Modern White",
+          "caption": "Complete Repaints"
+        },
+        {
+          "image": "https://images.unsplash.com/photo-1628625251833-04eeafb7a2db?q=80&w=1740&auto=format&fit=crop",
+          "alt": "Bakersfield Backyard Patio Painting and Stucco",
+          "caption": ""
+        },
+        {
+          "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=1000&auto=format&fit=crop",
+          "alt": "Front Door Painting and Entryway Detail Seven Oaks",
+          "caption": "Front Doors & Trim"
+        },
+        {
+          "image": "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?q=80&w=1000&auto=format&fit=crop",
+          "alt": "Modern Black Exterior Paint Job Kern County",
+          "caption": "Stucco & Siding"
+        },
+        {
+          "image": "https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?q=80&w=1000&auto=format&fit=crop",
+          "alt": "Pool House Exterior Painting Stockdale",
+          "caption": ""
+        }
+      ],
+      "quote": {
+        "text": "\"First impressions are the most lasting.\"",
+        "author": "— Architecture Daily"
+      }
+    },
+    "cta": {
+      "headingText": "Enhance your",
+      "headingAccent": "curb appeal.",
+      "description": "From stucco repairs to full exterior transformations, we deliver lasting quality. Book your free on-site assessment today.",
+      "buttonLabel": "Get a Quote",
+      "buttonHref": "/contact"
+    }
+  },
+
+  "commercial-services": {
+    "seo": {
+      "title": "Commercial Painting Services Bakersfield | Rangel Valley Painting",
+      "description": "Professional commercial painting in Bakersfield. We serve offices, retail, HOAs, and industrial facilities with flexible scheduling and premium finishes.",
+      "keywords": "commercial painting bakersfield, office painters, retail painting, industrial coatings, hoa painting services, rangel valley painting",
+      "ogTitle": "Commercial Painting Services Bakersfield | Rangel Valley Painting",
+      "ogDescription": "Elevate your business image with our high-end commercial painting services. Efficiency, quality, and minimal disruption guaranteed.",
+      "ogImage": "https://images.unsplash.com/photo-1497366216548-37526070297c?q=80&w=1200"
+    },
+    "hero": {
+      "image": "https://images.unsplash.com/photo-1497366216548-37526070297c?q=80&w=2400&auto=format&fit=crop",
+      "imageAlt": "Modern Commercial Office Space Bakersfield",
+      "eyebrow": "Commercial Solutions",
+      "headingText": "Professionalism",
+      "headingAccent": "at Scale",
+      "description": "We deliver efficient, high-quality painting services for offices, retail spaces, and industrial facilities in Bakersfield, minimizing disruption to your operations.",
+      "ctaLabel": "Schedule Walkthrough",
+      "ctaHref": "/contact"
+    },
+    "essence": {
+      "headingLine1": "Business",
+      "headingLine2": "First Approach.",
+      "description": "Your business image matters. We understand the unique demands of commercial projects: tight timelines, strict safety protocols, and the need for durable, low-maintenance finishes.",
+      "steps": [
+        {
+          "title": "Flexible Scheduling",
+          "desc": "Nights and weekends availability to keep your business running."
+        },
+        {
+          "title": "Industrial Coatings",
+          "desc": "Epoxy floors, dry-fall ceilings, and high-traffic wall systems."
+        },
+        {
+          "title": "Property Management",
+          "desc": "Reliable turnover painting for HOAs and apartment complexes."
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=1000&auto=format&fit=crop",
+      "imageAlt": "Corporate Building Exterior"
+    },
+    "gallery": {
+      "eyebrow": "Portfolio",
+      "heading": "Commercial Spaces",
+      "ctaLabel": "Start Your Project",
+      "ctaHref": "/contact",
+      "images": [
+        {
+          "image": "https://plus.unsplash.com/premium_photo-1742418151224-85deebc22419?q=80&w=1550&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "alt": "Modern Industrial Office Painting Bakersfield",
+          "caption": "Industrial Offices"
+        },
+        {
+          "image": "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?q=80&w=1632&auto=format&fit=crop",
+          "alt": "Conference Room Painting Commercial Service",
+          "caption": ""
+        },
+        {
+          "image": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?q=80&w=1738&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "alt": "Retail Shop Interior Painting Bakersfield",
+          "caption": "Retail & Showrooms"
+        },
+        {
+          "image": "https://images.unsplash.com/photo-1486325212027-8081e485255e?q=80&w=1000&auto=format&fit=crop",
+          "alt": "Commercial Building Exterior Painting Kern County",
+          "caption": "Exterior Commercial"
+        },
+        {
+          "image": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=1000&auto=format&fit=crop",
+          "alt": "Coworking Office Painting Service Bakersfield",
+          "caption": ""
+        }
+      ],
+      "quote": {
+        "text": "\"Quality is the best business plan.\"",
+        "author": "— John Lasseter"
+      }
+    },
+    "cta": {
+      "headingText": "Elevate your",
+      "headingAccent": "business image.",
+      "description": "Partner with Bakersfield's most reliable commercial painting team. Contact us today for a comprehensive proposal.",
+      "buttonLabel": "Request Proposal",
+      "buttonHref": "/contact"
+    }
+  },
+
+  "careers": {
+    "seo": {
+      "title": "Painting Jobs in Bakersfield | Careers at Rangel Valley Painting",
+      "description": "Looking for painting jobs in Bakersfield? Join Kern County's premier painting team. We are hiring skilled commercial and residential painters. Apple Today."
+    },
+    "eyebrow": "Employment Opportunities",
+    "headingLine1": "Painting Jobs in",
+    "headingLine2": "Bakersfield.",
+    "description": "We are hiring skilled painters and craftsmen who take pride in their work. Join a top-rated team offering stable employment and growth in Kern County. (Se busca pintor con experiencia).",
+    "benefitsHeading": "Why work with us?",
+    "benefits": [
+      "Competitive Pay",
+      "High-End Residential Projects",
+      "Professional Growth",
+      "Respectful Work Environment"
+    ],
+    "form": {
+      "subject": "New Job Application - Careers Page",
+      "nameLabel": "Full Name",
+      "phoneLabel": "Phone Number",
+      "positionLabel": "Position Applying For",
+      "positionPlaceholder": "Select Position",
+      "positionOptions": [
+        { "value": "Painter", "label": "Professional Painter" },
+        { "value": "Prep", "label": "Prep / Helper" },
+        { "value": "Foreman", "label": "Foreman / Lead" },
+        { "value": "Other", "label": "Other" }
+      ],
+      "experienceLabel": "Years of Experience",
+      "skillsLabel": "Skills & Past Experience",
+      "skillsPlaceholder": "Tell us about your skills...",
+      "submitLabel": "Submit Application",
+      "successTitle": "Application Received",
+      "successText": "Thank you for your interest. We will review your details and contact you if your profile matches our needs.",
+      "successResetLabel": "Send another"
+    }
+  },
+
+  "contact": {
+    "seo": {
+      "title": "Free Painting Estimate Bakersfield | Contact Rangel Valley Painting",
+      "description": "Get a free quote for residential and commercial painting in Bakersfield, CA. Professional painters for cabinets, interior, and exterior projects. Call (661) 428-6638."
+    },
+    "eyebrow": "Free Estimates",
+    "headingLine1": "Get a Free Quote in",
+    "headingLine2": "Bakersfield.",
+    "description": "Tell us about your project in Bakersfield or Kern County. Whether it's a single room refresh or a full estate transformation, we provide detailed, no-obligation estimates.",
+    "phoneLabel": "Call us directly",
+    "emailLabel": "Email us"
+  },
+
+  "gallery": {
+    "seo": {
+      "title": "Project Gallery | Rangel Valley Painting - Bakersfield, CA",
+      "description": "Explore our gallery of recent residential and commercial painting projects in Bakersfield, CA. See why we are the top-rated local painters."
+    },
+    "eyebrow": "Our Portfolio",
+    "headingText": "Our Project",
+    "headingAccent": "Gallery",
+    "description": "See our latest residential and commercial painting transformations across Bakersfield. Follow us on Instagram for daily updates.",
+    "instagram": {
+      "emptyStateText": "Follow us on Instagram to see our latest work",
+      "handle": "@rangelvalleypainting",
+      "url": "https://www.instagram.com/rangelvalleypainting/"
+    },
+    "ctaHeading": "Inspired by our work?",
+    "ctaDescription": "Let's transform your home or business with the same attention to detail.",
+    "ctaLabel": "Get Free Estimate",
+    "ctaHref": "/contact"
+  }
+}

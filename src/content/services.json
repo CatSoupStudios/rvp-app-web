@@ -1,0 +1,52 @@
+{
+  "items": [
+    {
+      "id": "01",
+      "title": "Residential Interior Painting",
+      "desc": "Flawless interior painting for Bakersfield homes. We specialize in walls, ceilings, and high-end trim detailing.",
+      "image": "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?q=80&w=800&auto=format&fit=crop",
+      "link": "/residential-interior",
+      "alt": "Residential interior painting services in Bakersfield living room"
+    },
+    {
+      "id": "02",
+      "title": "Kitchen Cabinet Refinishing",
+      "desc": "Factory-grade spray finishes. Transform your kitchen cabinets with a durable, modern look for a fraction of replacement cost.",
+      "image": "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?q=80&w=800&auto=format&fit=crop",
+      "link": "/cabinet-refinishing",
+      "alt": "Kitchen cabinet refinishing and painting white cabinets"
+    },
+    {
+      "id": "03",
+      "title": "Residential Exterior Painting",
+      "desc": "Protect your home from the Bakersfield sun. Premium weather-resistant coatings, stucco repair, and curb appeal enhancement.",
+      "image": "https://images.unsplash.com/photo-1600607686527-6fb886090705?q=80&w=800&auto=format&fit=crop",
+      "link": "/residential-exterior",
+      "alt": "Modern residential exterior house painting and stucco repair"
+    },
+    {
+      "id": "04",
+      "title": "Commercial Services",
+      "desc": "Efficient painting solutions for offices, retail, HOAs, and industrial facilities. Minimal disruption to your business operations.",
+      "image": "https://images.unsplash.com/photo-1497366216548-37526070297c?q=80&w=800&auto=format&fit=crop",
+      "link": "/commercial-services",
+      "alt": "Commercial office painting and industrial coatings service"
+    },
+    {
+      "id": "05",
+      "title": "Drywall & Texture",
+      "desc": "Seamless drywall repair, patching, and texture matching. We create the perfect canvas before any paint is applied.",
+      "image": "https://images.unsplash.com/photo-1649766964924-1d257ddf0742?q=80&w=1100&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "link": "/contact",
+      "alt": "Professional drywall repair and texture matching"
+    },
+    {
+      "id": "06",
+      "title": "Wood Restoration",
+      "desc": "Revitalize sun-damaged decks, fences, and pergolas with deep penetrating stains and sealants.",
+      "image": "https://images.unsplash.com/photo-1615873968403-89e068629265?q=80&w=800&auto=format&fit=crop",
+      "link": "/contact",
+      "alt": "Wood staining and restoration for decks and fences"
+    }
+  ]
+}

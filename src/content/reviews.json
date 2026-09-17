@@ -1,0 +1,116 @@
+{
+  "items": [
+    {
+      "name": "Sarah Jenkins",
+      "loc": "Bakersfield, CA",
+      "text": "Cleanest contractors I've ever hired. The lines are razor sharp.",
+      "stars": 5,
+      "img": "https://randomuser.me/api/portraits/women/44.jpg"
+    },
+    {
+      "name": "Mike R.",
+      "loc": "Seven Oaks",
+      "text": "Quality is top-notch, but the scheduling took a bit longer than expected.",
+      "stars": 4,
+      "img": null
+    },
+    {
+      "name": "Elena Rodriguez",
+      "loc": "Tehachapi, CA",
+      "text": "They finished 2 days ahead of schedule despite the wind. Amazing team.",
+      "stars": 5,
+      "img": "https://randomuser.me/api/portraits/women/68.jpg"
+    },
+    {
+      "name": "David Chen",
+      "loc": "Bakersfield, CA",
+      "text": "Great communication and the matte finish is stunning.",
+      "stars": 5,
+      "img": "https://randomuser.me/api/portraits/men/32.jpg"
+    },
+    {
+      "name": "Jessica Alva",
+      "loc": "California City",
+      "text": "A luxury experience. They protected all my furniture perfectly.",
+      "stars": 5,
+      "img": "https://randomuser.me/api/portraits/women/90.jpg"
+    },
+    {
+      "name": "Robert Fox",
+      "loc": "Stockdale",
+      "text": "High-end quality. Recommended to neighbors in Seven Oaks.",
+      "stars": 5,
+      "img": null
+    },
+    {
+      "name": "Amanda Low",
+      "loc": "Tehachapi, CA",
+      "text": "The paint job is solid, though they left a small mess in the yard.",
+      "stars": 3,
+      "img": "https://randomuser.me/api/portraits/women/22.jpg"
+    },
+    {
+      "name": "Tom H.",
+      "loc": "Bakersfield, CA",
+      "text": "Honest pricing and superior workmanship. No complaints.",
+      "stars": 5,
+      "img": "https://randomuser.me/api/portraits/men/46.jpg"
+    },
+    {
+      "name": "Patricia Wu",
+      "loc": "Bakersfield, CA",
+      "text": "Finally a painter who pays attention to detail! Very happy.",
+      "stars": 5,
+      "img": "https://randomuser.me/api/portraits/women/33.jpg"
+    },
+    {
+      "name": "Greg Norman",
+      "loc": "California City",
+      "text": "Solid work. Would hire again for the exterior.",
+      "stars": 4,
+      "img": null
+    },
+    {
+      "name": "Sophie T.",
+      "loc": "Bakersfield, CA",
+      "text": "My living room looks like a magazine cover. Thank you!",
+      "stars": 5,
+      "img": "https://randomuser.me/api/portraits/women/12.jpg"
+    },
+    {
+      "name": "Alex M.",
+      "loc": "Tehachapi, CA",
+      "text": "Very respectful of our home and pets. Great paint job.",
+      "stars": 5,
+      "img": "https://randomuser.me/api/portraits/men/22.jpg"
+    },
+    {
+      "name": "Linda K.",
+      "loc": "Bakersfield, CA",
+      "text": "Good execution, but communication was slow during the quote process.",
+      "stars": 3,
+      "img": null
+    },
+    {
+      "name": "James V.",
+      "loc": "Bakersfield, CA",
+      "text": "Efficient team. The commercial lobby looks brand new.",
+      "stars": 5,
+      "img": "https://randomuser.me/api/portraits/men/18.jpg"
+    },
+    {
+      "name": "Diana Prince",
+      "loc": "Tehachapi, CA",
+      "text": "Best painters in Kern County. Hands down.",
+      "stars": 5,
+      "img": "https://randomuser.me/api/portraits/women/65.jpg"
+    },
+    {
+      "name": "Kevin Hart",
+      "loc": "Bakersfield, CA",
+      "text": "Exceptional service from the quote to the final walkthrough.",
+      "stars": 5,
+      "img": "https://randomuser.me/api/portraits/men/91.jpg"
+    }
+  ]
+}
